@@ -1,9 +1,6 @@
+export const serverIP = "http://18.191.142.56";
+export const baseIP = serverIP + ":8090"; //'http://localhost:8090';
 
-
-export const baseIP =  'http://localhost:8090';
-export const serverIP =  'http://176.126.167.34';    
-export const urls =  {
-    emailUrl:baseIP+'/api/email',
-
-
-}
+export const urls = {
+  emailUrl: baseIP + "/api/email",
+};
